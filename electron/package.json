@@ -1,0 +1,29 @@
+{
+  "name": "Draven's Tic Tac Toe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "directories": {
+      "output": "/myElectron"
+    }, 
+    "appId": "org.ects.jklins.sunnysleftsacc",
+    "productName": "sunnysrightsacc",
+    "win": {
+      "target": "nsis",
+      "icon": "sunny.png"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^44.4.5"
+  }
+}
